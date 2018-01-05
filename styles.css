@@ -1,1 +1,88 @@
-/* add your CSS here */
+/*
+COLORS:
+;
+light blue: ECF1FE
+beige gray: A5BBBE
+dark blue: 22283A
+gray: C5CED3
+light gray: E8F0EF
+*/
+
+body {
+  background-color: #E8F0EF;
+}
+
+.animal-trading-card {
+  background-color: #22283A;
+  border: 1px #333 solid;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px 15px;
+  width: 330px;
+}
+
+.animal-name {
+  background-color: #C5CED3;
+  border: 1px #C5CED3 solid;
+  border-radius: 5px;
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+  margin: 0 auto 10px;
+  padding: 0 20px;
+}
+
+.animal-image {
+  background-color: #C5CED3;
+  border: 1px #C5CED3 solid;
+  border-radius: 5px;
+  margin: 10px auto;
+  padding: 15px;
+  width: 300px;
+}
+
+.animal-information {
+  background-color: #C5CED3;
+  border: 1px #C5CED3 solid;
+  border-radius: 5px;
+  margin: auto;
+  padding: 10px;
+  text-align: justify;
+}
+
+.animal-fact {
+  background-color: #E8F0EF;
+  border: 1px #C5CED3 solid;
+  border-radius: 4px;
+  font-style: italic;
+  padding: 10px;
+}
+
+.animal-characteristics {
+  background-color: #E8F0EF;
+  border: 1px #C5CED3 solid;
+  border-radius: 4px;
+  list-style-type: none;
+  padding: 10px;
+}
+
+.item-label {
+  font-weight: bold;
+}
+
+.animal-description {
+  background-color: #E8F0EF;
+  border: 1px #C5CED3 solid;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.footnote {
+  font-size: 11px;
+  font-style: italic;
+}
+
+.footnote a {
+  text-decoration: none;
+}
